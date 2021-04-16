@@ -188,29 +188,30 @@ nav {
     margin: auto;
     display: flex;
     padding-bottom: 80px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.section3-column1, .section3-column1{
-    display: flex;
-    flex-direction: column;
+.section3-column2 {
+    margin-left: 50px;
 }
+
 
 
 
 .entertainment, .boardgames, .billiards, .darts{
-    padding: 40px;
+    padding: 20px;
     border-style: solid;
     border-radius: 10px;
     text-align: center;
-    height: 258px;
+    height: 238px;
     width: 634px;
     align-content: center;
 }
 
 .entertainment, .billiards {
-    margin-bottom: 10%;
+    margin-bottom: 50px;
 }
+
 
 
 
@@ -251,7 +252,75 @@ footer {
     margin-left: 30px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1450px) {
+    .entertainment, .boardgames, .billiards, .darts{
+        padding: 40px;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        height: 258px;
+        width: 534px;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .section1 {
+        flex-direction: column;
+        position: absolute;
+        top: 20px;
+        left: 10%;
+        z-index: 1;
+        width:80%;
+        
+    }
+    
+
+    
+    .section1-column1 {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .background-image{
+        height: 70vh;
+        min-height: 1180px;
+        width: 100%;
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
+
+    .section1-column2, .section1-column3 {
+        padding-left: 0px;
+    }
+
+    .section1-relax, .section1-cocktails, .section1-entertainment, .section1-food {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .entertainment, .boardgames, .billiards, .darts{
+        padding: 40px;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        height: 250px;
+        width: 450px;
+        align-content: center;
+    }
+
+}
+
+@media screen and (max-width: 501px) {
 
     h2 {
         font-size: 42px;
@@ -333,8 +402,8 @@ footer {
         border-style: solid;
         border-radius: 10px;
         text-align: center;
-        height: 300px;
-        width: 273px;
+        height: 258px;
+        width: 420px;
         align-content: center;
     }
 
@@ -345,5 +414,136 @@ footer {
         margin-left: 5%;
         margin-bottom: 15%;
         
+    }
+  }
+
+
+  
+  @media screen and (max-width: 320px) {
+
+    h2 {
+        font-size: 42px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .logo-main{
+        font-size: 90px;
+    font-weight: 500;
+    }
+
+    .background-image{
+        height: 70vh;
+        min-height: 1350px;
+        width: 100%;
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
+    
+    main, .footer, .section1, .section3 {
+        flex-direction: column;
+    }
+    .section1-backgroudImage{
+        flex-direction: column;
+    }
+
+    .section1{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 2%;
+        left: 10%;
+        z-index: 1;
+        width:80%;
+    }
+    .section1-column1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1-column2, .section1-column3 {
+        padding-left: 2%;
+    }
+
+    .section1-relax, .section1-cocktails, .section1-entertainment, .section1-food {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .wine-image {
+        height: 90vh;
+        min-height: 1000px;
+        width: 100%;
+        background-image: url(images/story.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
+
+
+    .section2 {
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        background-color: white;
+        width: 255px;
+        height: 600PX;
+        padding: 0px 50px 20px 30px;
+    }
+
+    .section2 h3 {
+        padding: 20px 0px 0px 0px;
+        text-decoration: underline;
+    }
+    
+    
+    .entertainment, .boardgames, .billiards, .darts{
+        padding: 40px;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        height: 258px;
+        width: 420px;
+        align-content: center;
+    }
+
+    footer {
+        padding-top: 5%;
+    }
+    .footer-column1, .footer-column2,.footer-column3,.footer-column4 {
+        margin-left: 5%;
+        margin-bottom: 15%;
+        
+    }
+
+
+    .section3{
+        align-items: center;
+    }
+
+    .section3-column2 {
+        margin-left: 0px;
+    }
+
+    .entertainment, .boardgames, .billiards, .darts{
+        padding: 40px;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+        height: 288px;
+        width: 258px;
+        align-content: center;
+    }
+
+    
+    .billiards {
+        margin-top: 50px;
     }
   }
