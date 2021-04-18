@@ -8,19 +8,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bookTable.css">
     <title>Document</title>
 </head>
 <body>
+
     <header>
+
+        <div class="topImage" style="background-image: url(/images/booking.jpg)">
+                
+        </div>
+
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html" class="nav-link">HOME</a> </li>
-                <li><a class="nav-link">MENU</a> </li>
-                <li><a href="bookTable/bookTable.html" class="nav-link active"></a>BOOK TABLE</li>
-                <li><a class="nav-link">CONTACT</a> </li>
+                <li><a href="/index.html" class="nav-link">HOME</a> </li>
+                <li><a href="/menu/menu.html" class="nav-link">MENU</a> </li>
+                <li><a href="#" class="nav-link  active" >BOOK TABLE</a></li>
+                <li><a href="/contact/contact.html" class="nav-link">CONTACT</a> </li>
                 
             </ul>
         </nav>
+        
+            <h1 class="logo-main">TABLE BOOKING</h1>
+      
     </header>
+
+    <main>
+        <div>
+            <form>
+                <div class="info name_info">
+                    <div class="innerContents">
+                        <label for="name">First Name</label> <br>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    
+                    <div>
+                        <label for="name"> Surname</label> <br>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                </div>
+
+                <div class="info contact_info">
+                    <div>
+                        <label for="name"> Email</label><br>
+                        <input type="text" id="name" name="user_name">
+                    </div>  
+
+                    <div>
+                        <label for="name"> Phone</label><br>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                </div>
+
+                <div class="info dateTime_info">
+                    <div>
+                        <label for="name"> Date</label><br>
+                        <input type="text" id="name" name="user_name">
+                    </div>  
+
+                    <div>
+                        <label for="name"> Time</label><br>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                </div>
+
+                
+                <div class="info">
+                        <label for="name"> Number of  people</label><br>
+                        <input type="text" id="name" name="user_name">
+                </div>  
+                
+
+                
+                <div class="info">
+                        <label for="name"> Date of Birth</label><br>
+                        <input type="text" id="name" name="user_name">
+                </div>  
+                
+
+                <div class="info">
+                    <label for="msg">Message:</label><br>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+
+                <div class="info">
+                    <button type="submit">Send</button> 
+                </div>
+                
+                </div>
+
+
+                  
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -191,6 +191,21 @@ nav {
     justify-content: center;
 }
 
+.section3-images {
+    
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 0;
+    height: 300px;
+}
+
+.section3-text{
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .section3-column2 {
     margin-left: 50px;
 }
@@ -199,17 +214,27 @@ nav {
 
 
 .entertainment, .boardgames, .billiards, .darts{
-    padding: 20px;
-    border-style: solid;
-    border-radius: 10px;
     text-align: center;
-    height: 238px;
-    width: 634px;
+    height: 500px;
+    width: 30em;
     align-content: center;
+    background-color: rgb(241, 231, 238);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.entertainment:hover, .boardgames:hover, .billiards:hover, .darts:hover {
+    transform: scale(1.07);
+    transition: all 0.5s ease;
+    background-color: #dfa5c6;
 }
 
 .entertainment, .billiards {
     margin-bottom: 50px;
+}
+
+.section3-text h2 {
+    text-decoration: underline;
+    padding-bottom: 1rem;
 }
 
 

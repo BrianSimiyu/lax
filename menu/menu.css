@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+.topImage {
+height: 40vh;
+min-height: 400px;
+width: 100%;
+background-size: cover;
+background-position: 80% 80%;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.logo-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 500;
+    z-index: 1;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    border-bottom: 5px solid white
+}
