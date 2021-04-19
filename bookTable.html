@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/bookTable.css" />
     <title>Document</title>
   </head>
@@ -38,51 +42,51 @@
 
     <main>
       <div>
-        <form>
+        <form autocomplete="off">
           <div class="info name_info">
-            <div class="innerContents">
-              <label for="name">First Name</label> <br />
-              <input type="text" id="fName" name="user_name" />
+            <div>
+              <label for="name">First Name:</label> <br />
+              <input type="text" name="user_name" class="span-half" />
             </div>
 
             <div>
-              <label for="name"> Surname</label> <br />
-              <input type="text" id="Sname" name="user_name" />
+              <label for="name"> Surname:</label> <br />
+              <input type="text" name="user_name" class="span-half" />
             </div>
           </div>
 
           <div class="info contact_info">
             <div>
-              <label for="name"> Email</label><br />
-              <input type="text" id="email" name="user_name" />
+              <label for="name"> Email:</label><br />
+              <input type="text" name="user_name" class="span-half" />
             </div>
 
             <div>
-              <label for="name"> Phone</label><br />
-              <input type="text" id="phone" name="user_name" />
+              <label for="name"> Phone:</label><br />
+              <input type="text" name="user_name" class="span-half" />
             </div>
           </div>
 
           <div class="info dateTime_info">
             <div>
-              <label for="name"> Date</label><br />
-              <input type="text" id="date" name="user_name" />
+              <label for="name"> Date:</label><br />
+              <input type="text" name="user_name" class="span-half" />
             </div>
 
             <div>
-              <label for="name"> Time</label><br />
-              <input type="text" id="time" name="user_name" />
+              <label for="name"> Time:</label><br />
+              <input type="text" id="time" name="user_name" class="span-half" />
             </div>
           </div>
 
           <div class="info">
-            <label for="name"> Number of people</label><br />
-            <input type="text" id="name" name="user_name" />
+            <label for="name"> Number of people:</label><br />
+            <input type="text" id="name" name="user_name" class="span-full" />
           </div>
 
           <div class="info">
-            <label for="name"> Date of Birth</label><br />
-            <input type="text" id="dob" name="user_name" />
+            <label for="name"> Date of Birth:</label><br />
+            <input type="text" id="dob" name="user_name" class="span-full" />
           </div>
 
           <div class="info">
@@ -97,6 +101,54 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="footer-column1">
+          <h1>LAX BAR</h1>
+          <p>
+            A wine and coctail Heaven in the heart of Helsinki. Come enjoy and
+            relax with friends. #goodvibesonly
+          </p>
+
+          <div class="socialmedia-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+
+        <div class="footer-column2">
+          <h5>EXCEPTIONAL OPENING HOURS</h5>
+          <ul class="days">
+            <li>Monday: 11:00 - 22:00</li>
+            <li>Tuesday: 11:00 - 22:00</li>
+            <li>Wednesday: 11:00 - 22:00</li>
+            <li>Thursday: 11:00 - 22:00</li>
+            <li>Friday: 11:00 - 22:00</li>
+            <li>Saturday: 11:00 - 22:00</li>
+            <li>Sunday: 11:00 - 22:00</li>
+          </ul>
+        </div>
+
+        <div class="footer-column3">
+          <h5>WHERE CAN YOU FIND US?</h5>
+
+          <div>
+            <p>Yryönkatu 2 Helsinki, 00100</p>
+          </div>
+
+          <p>Phone: +358 44987 4860</p>
+          <p>Email: info@laxbar.fi</p>
+        </div>
+
+        <div class="footer-column4">
+          <h5>WELCOME!</h5>
+          <p>
+            Cocktails, wine, food, board games, billiards and a relaxed
+            atmosphere. See you at the bar!
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

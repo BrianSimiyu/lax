@@ -228,6 +228,8 @@ nav {
   padding-bottom: 1rem;
 }
 
+/*Footer */
+
 footer {
   background-color: #1b1b1b;
   padding-bottom: 5%;
@@ -291,6 +293,8 @@ footer {
 .footer-column4 {
   margin-left: 30px;
 }
+
+/*Media Queries */
 
 @media screen and (max-width: 1450px) {
   .entertainment,
