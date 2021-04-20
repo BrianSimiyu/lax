@@ -139,7 +139,7 @@ nav {
 
 .section2-WineImage {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .section2 {
@@ -169,6 +169,9 @@ nav {
   background-size: cover;
   background-position: center center;
   background-attachment: local;
+}
+.section3-background {
+  padding: 8em 0em;
 }
 
 .section3 {
