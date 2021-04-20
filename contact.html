@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/contact.css" />
     <title>Document</title>
   </head>
@@ -37,15 +41,15 @@
     </header>
 
     <main>
-      <form>
-        <div class="info name_info">
-          <div class="innerContents">
-            <label for="name">First Name</label> <br />
+      <form autocomplete="off">
+        <div class="info two-halfs">
+          <div class="half">
+            <label for="name">Name:</label> <br />
             <input type="text" id="name" name="user_name" />
           </div>
 
-          <div>
-            <label for="name"> Email</label><br />
+          <div class="half">
+            <label for="name"> Email:</label><br />
             <input type="text" id="email" name="user_name" />
           </div>
         </div>
@@ -61,6 +65,8 @@
       </form>
     </main>
 
+    <!--Footer-->
+
     <footer>
       <div class="footer">
         <div class="footer-column1">
@@ -70,17 +76,10 @@
             relax with friends. #goodvibesonly
           </p>
 
-          <div class="socialMediaIcons">
-            <img
-              class="socialMediaIcon"
-              src="/images/facebookIcon.png"
-              alt="Facebook"
-            />
-            <img
-              class="socialMediaIcon"
-              src="/images/instagramIcon.png"
-              alt="Instagram"
-            />
+          <div class="socialmedia-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
           </div>
         </div>
 
