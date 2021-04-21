@@ -374,6 +374,12 @@ footer {
 }
 
 @media screen and (max-width: 520px) {
+  .nav-links {
+    font-size: 1.5em;
+  }
+  .nav-link.active {
+    border-bottom: 3px solid white;
+  }
   h2 {
     font-size: 42px;
     font-weight: 400;
